@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!-- item_character_card.xml -->
+
+<!-- item_character_card.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/card_background"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/characterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/star_wars_font"
+        android:padding="8dp"
+        android:text="@string/character_name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/characterBirthYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="4dp"
+        android:text="@string/character_birth_year"
+        android:textColor="@color/white"
+        android:layout_below="@id/characterName"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/characterEyeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/characterBirthYear"
+        android:layout_marginTop="4dp"
+        android:padding="4dp"
+        android:text="@string/red"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/characterHairColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/characterEyeColor"
+        android:layout_marginTop="4dp"
+        android:padding="4dp"
+        android:text="@string/red"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/characterGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/characterHairColor"
+        android:layout_marginTop="4dp"
+        android:padding="4dp"
+        android:text="@string/male"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

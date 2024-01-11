@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/sortByNameOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort by Name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:padding="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/ascendingButtonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="A-Z"/>
+
+        <RadioButton
+            android:id="@+id/descendingButtonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Z-A"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/sortByHeightOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort by Height"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:padding="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/ascendingButtonHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Ascending"/>
+
+        <RadioButton
+            android:id="@+id/descendingButtonHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Descending"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/sortByMassOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort by Mass"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupMass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/ascendingButtonMass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Ascending"/>
+
+        <RadioButton
+            android:id="@+id/descendingButtonMass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Descending"/>
+    </RadioGroup>
+
+
+</LinearLayout>
+
